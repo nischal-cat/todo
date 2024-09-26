@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const taskText = taskInput.value.trim();
         if (taskText !== '') {
             const taskItem = document.createElement('li');
-            taskItem.innerHTML = `
+            taskItem.innerText = `
                 <input type="checkbox">
                 <p>${taskText}</p>
                 <i class="fa-solid fa-trash-can"></i>
